@@ -17,7 +17,7 @@ public class Main {
 		User user2 = new User("Zaine", "Lucky");
 		User user3 = new User("Brooke", "Record");
 		
-		System.out.println(greeting + "\n" + user1.getUsername() + "\n" + user2.getUsername() + "\n" + user3.getUsername());
+		System.out.println(greeting + "" + user1.getUsername() + ", " + user2.getUsername() + ", " + user3.getUsername());
 			
 		BufferedReader br = new BufferedReader(
 				new InputStreamReader(System.in));
@@ -26,7 +26,8 @@ public class Main {
 		while(playingGames) {
 			
 			//Choose between to play either Black Jack or PickUpSticks 
-			System.out.println(" To Play Black Jack 1 is the number you must enter, if you want to play Pick Up Sticks then 2 is the number you must enter");
+			System.out.println("1. Enter 1 to play Blackjack")
+			System.out.println("2. Enter 2 to play PickupSticks");
 			try {
 				// pick game 1 for blackjack 2 for 
 				String choice = br.readLine();
