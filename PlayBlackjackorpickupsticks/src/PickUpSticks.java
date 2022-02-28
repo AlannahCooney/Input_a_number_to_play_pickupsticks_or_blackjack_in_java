@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PickUpSticks {
 	
-	/* David Sheppard
+	/* Alannah Cullinane Cooney
 	 * algorithm
 	 * 
 	 */
